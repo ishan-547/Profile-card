@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body {
+    background-color: #eeeeee;
+    font-family: 'Comfortaa', Arial, sans-serif;
+}
+
+.card {
+    width: 300px;
+    background-color: white;
+    padding: 15px;
+    margin: 50px auto;
+    text-align: center;
+    border: 1px solid #cccccc;
+}
+
+.card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.role {
+    display: block;
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-top: 8px;
+    padding: 6px;
+    font-family: 'Comfortaa', Arial, sans-serif;
+}
+
+button {
+    margin-top: 10px;
+    padding: 6px;
+    cursor: pointer;
+}
